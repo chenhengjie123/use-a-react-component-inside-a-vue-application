@@ -1,5 +1,7 @@
 <template>
-  <div>Hello {{ name }}, I am a Vue component</div>
+  <div>
+    <p>Hello {{ name }}, I am a Vue component</p>
+  </div>
 </template>
 
 <script>

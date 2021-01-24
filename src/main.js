@@ -5,6 +5,6 @@ import { VuePlugin } from "vuera";
 Vue.config.productionTip = false;
 Vue.use(VuePlugin);
 
-new Vue({
+var vm = new Vue({
   render: h => h(App)
 }).$mount("#app");
